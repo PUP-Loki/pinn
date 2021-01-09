@@ -29,7 +29,7 @@
 /* Location of data for self-updating */
 #define BUILD_URL       "http://os.lokisys.icu/Loki/BUILD-DATA"
 #define UPDATE_URL      "http://os.lokisys.icu/Loki/pinn-lite.zip"
-#define README_URL      "http://os.lokisys.icu/Loki/README.md"
+#define README_URL      "http://downloads.sourceforge.net/project/pinn/README.md"
 #define GROUP_URL       "http://os.lokisys.icu/Loki/overrides.json"
 #define BUILD_CURRENT   "/mnt/BUILD-DATA"
 #define BUILD_NEW       "/tmp/BUILD-DATA"
