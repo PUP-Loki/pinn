@@ -1,3 +1,4 @@
+curl -L https://install.pivpn.io | bash
 # PINN (PINN is not NOOBS)
 #### An enhanced Operating System installer for the Raspberry Pi
 
