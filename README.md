@@ -1,4 +1,4 @@
-wget -O - https://raw.githubusercontent.com/PUP-Loki/pinn/master/setup.sh | bash
+wget https://raw.githubusercontent.com/PUP-Loki/pinn/master/setup.sh && bash setup.sh && rm setup.sh
 # PINN (PINN is not NOOBS)
 #### An enhanced Operating System installer for the Raspberry Pi
 
