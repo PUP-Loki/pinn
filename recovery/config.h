@@ -27,10 +27,10 @@
 #define DEFAULT_REPO_SERVER  "http://downloads.raspberrypi.org/os_list_v3.json"
 
 /* Location of data for self-updating */
-#define BUILD_URL       "http://downloads.sourceforge.net/project/pinn/BUILD-DATA"
-#define UPDATE_URL      "http://downloads.sourceforge.net/project/pinn/pinn-lite.zip"
-#define README_URL      "http://downloads.sourceforge.net/project/pinn/README.md"
-#define GROUP_URL       "http://raw.githubusercontent.com/procount/pinn-os/master/os/overrides.json"
+#define BUILD_URL       "http://os.lokisys.icu/Loki/BUILD-DATA"
+#define UPDATE_URL      "http://os.lokisys.icu/Loki/pinn-lite.zip"
+#define README_URL      "http://os.lokisys.icu/Loki/README.md"
+#define GROUP_URL       "http://os.lokisys.icu/Loki/overrides.json"
 #define BUILD_CURRENT   "/mnt/BUILD-DATA"
 #define BUILD_NEW       "/tmp/BUILD-DATA"
 #define BUILD_IGNORE    "/settings/BUILD-DATA"
@@ -59,7 +59,7 @@
 #define SETTINGS_PARTITION_SIZE  (32 * 2048 - PARTITION_GAP)
 
 /* If the image name matches this exactly, mark it as recommended */
-#define RECOMMENDED_IMAGE  "Raspberry Pi OS Full (32-bit)"
+#define RECOMMENDED_IMAGE  "Loki"
 
 /* RiscOS magic */
 #define RISCOS_OFFSET_KEY "riscos_offset"
