@@ -6,6 +6,7 @@ cd libarchive-3.3.1
 ./configure
 make
 make install
+cd /root
 git clone https://github.com/PUP-Loki/pinn.git
 cd /root/pinn/
 ./BUILDME.sh
